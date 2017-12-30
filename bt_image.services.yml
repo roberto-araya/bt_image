@@ -1,0 +1,11 @@
+services:
+  bt_image.breadcrumbs:
+    class: Drupal\bt_image\Breadcrumb\ImageBreadcrumbBuilder
+    arguments: ['@current_user']
+    tags:
+      - { name: breadcrumb_builder, priority: 1010 }
+  bt_image_config.overrider:
+    class: Drupal\bt_image\Config\ConfigImageOverride
+    #arguments: ['@config.storage', '@event_dispatcher', '@config.typed']
+    tags:
+      - {name: config.factory.override, priority: 25}

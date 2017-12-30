@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxxlarge_square_30
+label: 'Square 30% 480x480'
+effects:
+  2730ae4a-bb37-4a9f-b4b2-394b26c939dd:
+    uuid: 2730ae4a-bb37-4a9f-b4b2-394b26c939dd
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      retinafy: 0
+      multiplier: '2'

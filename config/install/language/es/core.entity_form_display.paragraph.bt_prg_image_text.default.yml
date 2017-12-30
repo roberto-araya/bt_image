@@ -1,0 +1,9 @@
+content:
+  field_bt_image:
+    settings:
+      label_singular: Imagen
+      label_plural: Imagenes
+    third_party_settings:
+      field_states_ui:
+        form:
+          add: Agregar

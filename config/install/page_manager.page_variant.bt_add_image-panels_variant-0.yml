@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.bt_add_image
+  module:
+    - entity_forms_in_blocks
+    - panels
+id: bt_add_image-panels_variant-0
+label: 'Add Image Default'
+variant: panels_variant
+variant_settings:
+  blocks:
+    51b38741-2c05-4ab9-b1c7-709f02105c5e:
+      id: entity_forms_in_blocks
+      label: 'Entity form in block'
+      provider: entity_forms_in_blocks
+      label_display: '0'
+      entity_type: media
+      bundle: image
+      form_mode: bt_by_default
+      region: contentmain
+      weight: 0
+      uuid: 51b38741-2c05-4ab9-b1c7-709f02105c5e
+      context_mapping: {  }
+  id: panels_variant
+  uuid: a476f588-9dd6-407a-8cd5-0204a4823a95
+  label: null
+  weight: 0
+  layout: radix_boxton
+  layout_settings: {  }
+  page_title: 'Add Image'
+  storage_type: page_manager
+  storage_id: bt_add_image-panels_variant-0
+  builder: standard
+page: bt_add_image
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

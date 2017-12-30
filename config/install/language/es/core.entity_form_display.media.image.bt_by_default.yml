@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_image:
+      format_settings:
+        label: 'Subir Imagen'
+      label: 'Subir Imagen'

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xlarge_rectangle_20
+label: 'Rectangle 20% 200x100'
+effects:
+  2ef46194-7194-4a7d-8125-dffcaea92f52:
+    uuid: 2ef46194-7194-4a7d-8125-dffcaea92f52
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 100
+      retinafy: 0
+      multiplier: '2'

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxlarge_square_100
+label: 'Square 100% 1250x1250'
+effects:
+  4674a6d1-ee29-4aa4-b37d-4c844a2c17c9:
+    uuid: 4674a6d1-ee29-4aa4-b37d-4c844a2c17c9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1250
+      height: 1250
+      retinafy: 0
+      multiplier: '2'

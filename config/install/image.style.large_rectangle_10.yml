@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: large_rectangle_10
+label: 'Rectangle 10% 80x40'
+effects:
+  eb5212fa-6f18-4e79-9928-4156116b24e2:
+    uuid: eb5212fa-6f18-4e79-9928-4156116b24e2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 80
+      height: 40
+      retinafy: 0
+      multiplier: '2'

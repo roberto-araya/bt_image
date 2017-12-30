@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_prg_text_image
+label: 'Text Image'
+behavior_plugins: {  }

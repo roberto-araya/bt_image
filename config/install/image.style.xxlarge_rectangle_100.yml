@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxlarge_rectangle_100
+label: 'Rectangle 100% 1250x625'
+effects:
+  fceb7d42-333b-4348-9371-7d19bdccf1fb:
+    uuid: fceb7d42-333b-4348-9371-7d19bdccf1fb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1250
+      height: 625
+      retinafy: 0
+      multiplier: '2'

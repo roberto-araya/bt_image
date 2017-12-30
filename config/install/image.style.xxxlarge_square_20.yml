@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxxlarge_square_20
+label: 'Square 20% 320x320'
+effects:
+  b45b868a-cdfb-4992-a328-6abda4c44168:
+    uuid: b45b868a-cdfb-4992-a328-6abda4c44168
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 320
+      retinafy: 0
+      multiplier: '2'

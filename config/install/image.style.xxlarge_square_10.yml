@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxlarge_square_10
+label: 'Square 10% 125x125'
+effects:
+  8cd435e9-3f18-40e7-81a2-7d67487855af:
+    uuid: 8cd435e9-3f18-40e7-81a2-7d67487855af
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 125
+      height: 125
+      retinafy: 0
+      multiplier: '2'

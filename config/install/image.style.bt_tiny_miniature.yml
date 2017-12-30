@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_tiny_miniature
+label: 'Tiny Miniature'
+effects:
+  8581c2ff-979c-4d92-9a58-c4529a31364c:
+    uuid: 8581c2ff-979c-4d92-9a58-c4529a31364c
+    id: image_scale
+    weight: 1
+    data:
+      width: 35
+      height: 35
+      upscale: false
+      retinafy: 0
+      multiplier: '2'

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xlarge_square_10
+label: 'Square 10% 100x100'
+effects:
+  604050f2-95c2-41ac-b7a2-45e55188aea4:
+    uuid: 604050f2-95c2-41ac-b7a2-45e55188aea4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      retinafy: 0
+      multiplier: '2'

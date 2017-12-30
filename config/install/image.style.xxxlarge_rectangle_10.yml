@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xxxlarge_rectangle_10
+label: 'Rectangle 10% 160x80'
+effects:
+  1639746a-9f85-4d13-bdd1-f519a42a3610:
+    uuid: 1639746a-9f85-4d13-bdd1-f519a42a3610
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 160
+      height: 80
+      retinafy: 0
+      multiplier: '2'
