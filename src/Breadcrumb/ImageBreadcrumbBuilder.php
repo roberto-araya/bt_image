@@ -4,7 +4,7 @@ namespace Drupal\bt_image\Breadcrumb;
 
 use Drupal\Core\Breadcrumb\Breadcrumb;
 use Drupal\Core\Breadcrumb\BreadcrumbBuilderInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\Core\Config\ConfigFactory;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Link;
 
@@ -33,7 +33,7 @@ class ImageBreadcrumbBuilder implements BreadcrumbBuilderInterface {
   /**
    * Class constructor.
    */
-  public function __construct(ContainerInterface $configFactory) {
+  public function __construct(ConfigFactory $configFactory) {
     $this->account = $configFactory->get('system.site')->get('name');
   }
 
