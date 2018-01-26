@@ -16,9 +16,9 @@ class ConfigImageOverride implements ConfigFactoryOverrideInterface {
   public function loadOverrides($names) {
     $overrides = array();
 
-    if (in_array('media_entity.bundle.image', $names)) {
-      //$overrides['media_entity.bundle.image']['label'] = 'Imagen';
-      //$overrides['media_entity.bundle.image']['description'] = 'Almacene una imagen localmente en su biblioteca multimedia.';
+    if (in_array('media.type.image', $names)) {
+      //$overrides['media.type.image']['label'] = 'Imagen';
+      //$overrides['media.type.image']['description'] = 'Almacene una imagen localmente en su biblioteca multimedia.';
     }
     if (in_array('field.field.media.image.image', $names)) {
       //$overrides['field.field.media.image.image']['label'] = 'Imagen';
@@ -45,8 +45,8 @@ class ConfigImageOverride implements ConfigFactoryOverrideInterface {
     ];
 
     // Add workbench moderation to image bundle.
-    if (in_array('media_entity.bundle.image', $names)) {
-      $overrides['media_entity.bundle.image']['third_party_settings'] = $third_party_settings;
+    if (in_array('media.type.image', $names)) {
+      $overrides['media.type.image']['third_party_settings'] = $third_party_settings;
     }
 
     return $overrides;
