@@ -4,11 +4,3 @@
  * @file
  * The install file of bt_image module.
  */
-
-/**
- * Implements hook_install().
- */
-function bt_image_install() {
-  // Add path alias.
-  \Drupal::service('path.alias_storage')->save('/app/website/multimedia/add/image', '/app/website/multimedia/add/image', 'en');
-}
