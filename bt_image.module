@@ -49,6 +49,7 @@ function bt_image_media_insert(EntityInterface $entity) {
   if ($entity->bundle() == 'image') {
     \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/edit', "/image/" . $pathTitle . '/edit', "en");
     \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/delete', "/image/" . $pathTitle . '/delete', "en");
+    \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/latest', "/image/" . $pathTitle . '/latest', "en");
   }
 }
 
