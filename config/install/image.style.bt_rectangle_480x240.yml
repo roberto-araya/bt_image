@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_rectangle_480x240
+label: 'Rectangle 480x240'
+effects:
+  d58f5d74-ff5e-4f68-a91b-0440b69ccb36:
+    uuid: d58f5d74-ff5e-4f68-a91b-0440b69ccb36
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 240
+      retinafy: 0
+      multiplier: '2'

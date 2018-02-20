@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_square_625x625
+label: 'Square 625x625'
+effects:
+  82eb28ca-28da-4bb7-b5b2-cb1addcdc74e:
+    uuid: 82eb28ca-28da-4bb7-b5b2-cb1addcdc74e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 625
+      height: 625
+      retinafy: 0
+      multiplier: '2'

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_rectangle_125x63
+label: 'Rectangle 125x63'
+effects:
+  0a204c71-0e75-48d2-b433-7705a35c9475:
+    uuid: 0a204c71-0e75-48d2-b433-7705a35c9475
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 125
+      height: 63
+      retinafy: 0
+      multiplier: '2'

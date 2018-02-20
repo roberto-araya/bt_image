@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_square_200x200
+label: 'Square 200x200'
+effects:
+  02280e36-91cb-426e-846d-bcbb2b4db7ee:
+    uuid: 02280e36-91cb-426e-846d-bcbb2b4db7ee
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      retinafy: 0
+      multiplier: '2'

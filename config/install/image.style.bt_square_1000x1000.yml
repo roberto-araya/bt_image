@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_square_1000x1000
+label: 'Square 1000x1000'
+effects:
+  48e82337-78de-4fe4-aaa9-41db766904ad:
+    uuid: 48e82337-78de-4fe4-aaa9-41db766904ad
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1000
+      height: 1000
+      retinafy: 0
+      multiplier: '2'

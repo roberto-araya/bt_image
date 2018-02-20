@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_rectangle_300x150
+label: 'Rectangle 300x150'
+effects:
+  6ce7049f-c2d0-44b2-9efa-cf1d7fc375e2:
+    uuid: 6ce7049f-c2d0-44b2-9efa-cf1d7fc375e2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 150
+      retinafy: 0
+      multiplier: '2'

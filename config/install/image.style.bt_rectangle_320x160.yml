@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_rectangle_320x160
+label: 'Rectangle 320x160'
+effects:
+  38482be3-741c-412e-9316-9d7d3b87f9cc:
+    uuid: 38482be3-741c-412e-9316-9d7d3b87f9cc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 160
+      retinafy: 0
+      multiplier: '2'

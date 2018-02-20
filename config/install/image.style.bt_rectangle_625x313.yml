@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_rectangle_625x313
+label: 'Rectangle 625x313'
+effects:
+  e513cebe-28f9-48aa-970b-24ea6731874d:
+    uuid: e513cebe-28f9-48aa-970b-24ea6731874d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 625
+      height: 313
+      retinafy: 0
+      multiplier: '2'

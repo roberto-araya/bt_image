@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_square_750x750
+label: 'Square 750x750'
+effects:
+  73eed451-50fb-44c3-bb3e-41764a881fc4:
+    uuid: 73eed451-50fb-44c3-bb3e-41764a881fc4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 750
+      retinafy: 0
+      multiplier: '2'
