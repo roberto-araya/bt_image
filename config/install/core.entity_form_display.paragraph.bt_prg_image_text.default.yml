@@ -10,7 +10,6 @@ dependencies:
     - field_states_ui
     - inline_entity_form
     - text
-    - workbench_moderation
 id: paragraph.bt_prg_image_text.default
 targetEntityType: paragraph
 bundle: bt_prg_image_text

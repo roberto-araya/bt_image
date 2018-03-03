@@ -1,0 +1,12 @@
+langcode: en
+status: false
+dependencies: {  }
+id: bt_image
+label: Image
+description: 'Store images in your multimedia library to use in your publications.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_bt_image
+field_map: {  }

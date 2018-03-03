@@ -46,7 +46,7 @@ function bt_image_media_insert(EntityInterface $entity) {
   // replace spaces with underscore and then truncate to 60 chars.
   $pathTitle = substr(str_replace(" ", "-", trim(strtolower($entity->label()))), 0, 60);
 
-  if ($entity->bundle() == 'image') {
+  if ($entity->bundle() == 'bt_image') {
     \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/edit', "/image/" . $pathTitle . '/edit', "en");
     \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/delete', "/image/" . $pathTitle . '/delete', "en");
     \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/latest', "/image/" . $pathTitle . '/latest', "en");
@@ -57,7 +57,7 @@ function bt_image_media_insert(EntityInterface $entity) {
  * Implements hook_entity_bundle_field_info().
  */
 function bt_image_entity_bundle_field_info(EntityTypeInterface $entity_type, $bundle) {
-  if ($entity_type->id() == 'media' && $bundle == 'image') {
+  if ($entity_type->id() == 'media' && $bundle == 'bt_image') {
     $fields = array();
     $fields['name'] = BaseFieldDefinition::create('string');
     $fields['name']->setLabel(t('Image name'))

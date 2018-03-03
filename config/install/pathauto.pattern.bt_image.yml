@@ -9,14 +9,14 @@ label: Image
 type: 'canonical_entities:media'
 pattern: '/image/[media:name]'
 selection_criteria:
-  361c3f02-622e-41f3-b53c-34710862d81f:
+  129ac0f5-f6bb-4381-ba0c-2e79e0a1f33d:
     id: 'entity_bundle:media'
     bundles:
-      image: image
+      bt_image: bt_image
     negate: false
     context_mapping:
       media: media
-    uuid: 361c3f02-622e-41f3-b53c-34710862d81f
+    uuid: 129ac0f5-f6bb-4381-ba0c-2e79e0a1f33d
 selection_logic: and
 weight: -5
 relationships: {  }
