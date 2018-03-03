@@ -1,6 +1,0 @@
-services:
-  bt_image_config.overrider:
-    class: Drupal\bt_image\Config\ConfigImageOverride
-    #arguments: ['@config.storage', '@event_dispatcher', '@config.typed']
-    tags:
-      - {name: config.factory.override, priority: 25}
