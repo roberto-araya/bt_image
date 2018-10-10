@@ -19,7 +19,7 @@
     "source": "http://cgit.drupalcode.org/bt_image"
   },
   "require": {
-    "drupal/bt_media": "1.x-dev",
+    "drupal/bt_media": "dev-dev",
     "drupal/focal_point": "1.x-dev",
     "drupal/retina_images": "1.x-dev"
   }
