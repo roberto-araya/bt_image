@@ -3,7 +3,7 @@
   "type": "drupal-module",
   "description": "This module adapts the functions of the Media Entity Image module to follow the navigability and publishing flow of Btester Media.",
   "keywords": ["Drupal"],
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "Roberto Araya",
@@ -19,8 +19,8 @@
     "source": "http://cgit.drupalcode.org/bt_image"
   },
   "require": {
-    "drupal/bt_media": "dev-dev",
-    "drupal/focal_point": "1.x-dev",
-    "drupal/retina_images": "1.x-dev"
+    "drupal/bt_media": "dev-1.x",
+    "drupal/focal_point": "~1.5",
+    "drupal/retina_images": "~1.0-beta1"
   }
 }

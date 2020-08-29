@@ -2,7 +2,9 @@ name: Btester Image
 type: module
 description: Btester Image
 core: 8.x
+core_version_requirement: ^8
 package: Btester
 dependencies:
-  - bt_media:bt_media
+  - drupal:layout_builder
   - focal_point:focal_point
+  - bt_media:bt_media
