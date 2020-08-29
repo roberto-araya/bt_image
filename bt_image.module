@@ -58,7 +58,7 @@ function bt_image_media_insert(EntityInterface $entity) {
  */
 function bt_image_entity_bundle_field_info(EntityTypeInterface $entity_type, $bundle) {
   if ($entity_type->id() == 'media' && $bundle == 'bt_image') {
-    $fields = array();
+    $fields = [];
     $fields['name'] = BaseFieldDefinition::create('string');
     $fields['name']->setLabel(t('Image name'))
       ->setDescription(t('The name by which you will identify the image in your media library.'));
