@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.bt_block
+    - field.field.media.bt_image.field_bt_image
+    - image.style.bt_square_250x250
+    - media.type.bt_image
+  module:
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: media.bt_image.bt_block
+targetEntityType: media
+bundle: bt_image
+mode: bt_block
+content:
+  field_bt_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: bt_square_250x250
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.bt_paragraph
+    - field.field.media.bt_image.field_bt_image
+    - image.style.bt_square_200x200
+    - media.type.bt_image
+  module:
+    - image
+id: media.bt_image.bt_paragraph
+targetEntityType: media
+bundle: bt_image
+mode: bt_paragraph
+content:
+  field_bt_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: bt_square_200x200
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
