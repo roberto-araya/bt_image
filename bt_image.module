@@ -9,6 +9,7 @@ use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Entity\EntityInterface;
+use Drupal\path_alias\Entity\PathAlias;
 
 /**
  * Implements hook_help().
@@ -47,9 +48,20 @@ function bt_image_media_insert(EntityInterface $entity) {
   $pathTitle = substr(str_replace(" ", "-", trim(strtolower($entity->label()))), 0, 60);
 
   if ($entity->bundle() == 'bt_image') {
-    \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/edit', "/image/" . $pathTitle . '/edit', "en");
-    \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/delete', "/image/" . $pathTitle . '/delete', "en");
-    \Drupal::service('path.alias_storage')->save("/media/" . $entity->id() . '/latest', "/image/" . $pathTitle . '/latest', "en");
+    $paths = [
+      '/media/' . $entity->id() . '/edit' => '/image/' . $pathTitle . '/edit',
+      '/media/' . $entity->id() . '/delete' => '/image/' . $pathTitle . '/delete',
+      '/media/' . $entity->id() . '/latest' => '/image/' . $pathTitle . '/latest',
+    ];
+    // Add path alias.
+    foreach ($paths as $path => $alias) {
+      $path_alias = PathAlias::create([
+        'path' => $path,
+        'alias' => $alias,
+        'langcode' => 'en',
+      ]);
+      $path_alias->save();
+    }
   }
 }
 
