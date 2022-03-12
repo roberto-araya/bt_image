@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.bt_full_viewport_2xl
+    - image.style.bt_full_viewport_lg
+    - image.style.bt_full_viewport_md
+    - image.style.bt_full_viewport_sm
+    - image.style.bt_full_viewport_xl
+  module:
+    - bt_image
+id: bt_full_viewport
+label: FullViewport
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: bt_full_viewport_2xl
+    breakpoint_id: bt.2xl
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bt_full_viewport_xl
+    breakpoint_id: bt.xl
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bt_full_viewport_lg
+    breakpoint_id: bt.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bt_full_viewport_md
+    breakpoint_id: bt.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: bt_full_viewport_sm
+    breakpoint_id: bt.sm
+    multiplier: 1x
+breakpoint_group: bt_image
+fallback_image_style: bt_full_viewport_sm
