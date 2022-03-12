@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_square_xl
+label: MidSquareXL
+effects:
+  95e25d5c-efff-4cbf-a7d3-12777f4e25ff:
+    uuid: 95e25d5c-efff-4cbf-a7d3-12777f4e25ff
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: 768
+      upscale: false

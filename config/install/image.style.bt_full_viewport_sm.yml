@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_full_viewport_sm
+label: FullViewportSM
+effects:
+  8189429a-28bc-4c13-8447-71341e317812:
+    uuid: 8189429a-28bc-4c13-8447-71341e317812
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 480
+      anchor: center-center

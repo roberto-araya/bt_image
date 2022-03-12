@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_square_lg
+label: MidSquareLG
+effects:
+  1ce43f55-2314-4d69-bf28-9dc2781e4e42:
+    uuid: 1ce43f55-2314-4d69-bf28-9dc2781e4e42
+    id: image_scale
+    weight: 1
+    data:
+      width: 640
+      height: 640
+      upscale: false

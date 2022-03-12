@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_full_viewport_2xl
+label: FullViewport2XL
+effects:
+  943e2541-c4d8-4c0b-a62b-10de10026ad8:
+    uuid: 943e2541-c4d8-4c0b-a62b-10de10026ad8
+    id: image_scale
+    weight: 2
+    data:
+      width: 1920
+      height: 820
+      upscale: false

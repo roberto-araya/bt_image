@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_square_sm
+label: MidSquareSM
+effects:
+  4770c0c0-dc02-49d4-aac7-f90a5dc474e1:
+    uuid: 4770c0c0-dc02-49d4-aac7-f90a5dc474e1
+    id: image_scale
+    weight: 1
+    data:
+      width: 384
+      height: 384
+      upscale: false

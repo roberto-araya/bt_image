@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_full_viewport_md
+label: FullViewportMD
+effects:
+  d57097e7-e375-40b9-a466-c1fbe09cbaf6:
+    uuid: d57097e7-e375-40b9-a466-c1fbe09cbaf6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 576
+      anchor: center-center

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_square_md
+label: MidSquareMD
+effects:
+  df4bbf8e-1fd1-4510-bf90-d280eacb2d30:
+    uuid: df4bbf8e-1fd1-4510-bf90-d280eacb2d30
+    id: image_scale
+    weight: 1
+    data:
+      width: 512
+      height: 512
+      upscale: false

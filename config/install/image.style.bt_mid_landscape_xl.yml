@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_landscape_xl
+label: MidLandscapeXL
+effects:
+  e32c22ca-6cec-4f5c-817c-037384cf37f9:
+    uuid: e32c22ca-6cec-4f5c-817c-037384cf37f9
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      upscale: false

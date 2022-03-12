@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_mid_landscape_xs
+label: MidLandscapeXS
+effects:
+  f39dd252-a7f4-47df-ae38-1b27490b4e24:
+    uuid: f39dd252-a7f4-47df-ae38-1b27490b4e24
+    id: image_scale
+    weight: 1
+    data:
+      width: 320
+      height: 180
+      upscale: false
