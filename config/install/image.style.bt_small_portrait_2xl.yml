@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_small_portrait_2xl
+label: SmallPortrait2XL
+effects:
+  65114430-e3a6-4648-9b73-c34e4cd4a011:
+    uuid: 65114430-e3a6-4648-9b73-c34e4cd4a011
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 640
+      height: 960
+      anchor: center-center

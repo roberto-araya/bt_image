@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: bt_small_portrait_md
+label: SmallPortraitMD
+effects:
+  cce6a0ef-5330-4290-ab5f-f0c28f56f3e6:
+    uuid: cce6a0ef-5330-4290-ab5f-f0c28f56f3e6
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 340
+      height: 510
+      anchor: center-center
